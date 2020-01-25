@@ -53,6 +53,31 @@
     height: 300px;
   }
 
+.text1 {
+    position: relative;
+    font-size: 20em;
+    z-index: 2;
+}
+
 .fullwidth{
     grid-column: 1 / span 12;
+}
+
+.low{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.bgText {
+    position: relative;
+    z-index: -1;
+    font-size: 20em;
+    color: lightsalmon;
+}
+
+#rh{
+    position: relative;
+    z-index: 2;
 }

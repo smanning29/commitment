@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
-    <div class="grid-container">
+
+    <div class="bgText">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec dui a mi maximus rutrum in a justo. Suspendisse et pellentesque odio, vitae mattis magna. Sed sit amet quam eget tellus placerat dignissim eu vel elit. Vivamus ut libero bibendum, iaculis lorem sit amet, interdum quam. 
+    </div>
+
+    <div class="grid-container low">
         <div class="item1"></div>
         <div class="item2"></div>
         <div class="item3"></div>
@@ -19,10 +24,9 @@
     </div>
     <div class="grid-container">
         <div class="fullwidth">
-            <img src="img/rh/rh1.png" alt="rose hand" onmouseover="this.src='img/rh/rh2.png';" onmouseout="this.src='img/rh/rh1.png'">
+            <img src="img/rh/rh1.png" alt="rose hand" id="rh" onmouseover="runAnimation()" onmouseout="stopAnimation()">
         </div>
     </div>
-
     <script src="js/script.js"></script>
 </body>
 </html>
