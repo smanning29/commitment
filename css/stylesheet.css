@@ -116,14 +116,12 @@ body{
     z-index: 2;
 }
 
-#text-grid-container{
+.star-grid-container{
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
-  /* grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px; */
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 3;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  position: relative;
+  z-index: 1;
 }
 
 .centeredLg{
