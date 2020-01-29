@@ -43,6 +43,16 @@ function toggleShowHide(){
     console.log("showObjectsOn = " + showObjectsOn);
 }
 
+function showStar(item){
+    var itemToShow = document.querySelector(item);
+    itemToShow.style.display = "block";
+}
+
+function hideStar(item){
+    var itemToShow = document.querySelector(item);
+    itemToShow.style.display = "none";
+}
+
 function showColor(item, color){
     console.log(item);
     var itemToShow = document.querySelector(item);
@@ -54,13 +64,6 @@ function showTextColor(item, color){
     console.log(item);
     var itemToShow = document.querySelector(item);
     itemToShow.style.color = color;
-    itemToShow.style.zIndex = 2;
-}
-
-function showStar(item){
-    console.log(item);
-    var itemToShow = document.querySelector(item);
-    itemToShow.style.
     itemToShow.style.zIndex = 2;
 }
 
