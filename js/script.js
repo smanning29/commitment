@@ -30,3 +30,30 @@ function runAnimation(){
 function stopAnimation(){
     clearInterval(interval);
 }
+
+function showColor(item, color){
+    console.log(item);
+    var itemToShow = document.querySelector(item);
+    itemToShow.style.backgroundColor = color;
+    itemToShow.style.zIndex = 2;
+}
+
+
+function showTextColor(item, color){
+    console.log(item);
+    var itemToShow = document.querySelector(item);
+    itemToShow.style.color = color;
+    itemToShow.style.zIndex = 2;
+}
+
+function showBlack(item){
+    var itemToShow = document.querySelector(item);
+    itemToShow.style.backgroundColor = "rgb(0,0,0)";
+    itemToShow.style.zIndex = 1;
+}
+
+function showTextBlack(item){
+    var itemToShow = document.querySelector(item);
+    itemToShow.style.color = "rgb(0,0,0)";
+    itemToShow.style.zIndex = 1;
+}
