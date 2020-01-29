@@ -1,5 +1,5 @@
 body{
-  background-color: black;
+  /* background-color: black; */
 }
 
 .grid-container {
@@ -42,7 +42,7 @@ body{
   }
 
 .text3{
-    grid-column: 12 / 13;
+    grid-column: 11 / 13;
     grid-row: 3;
     font-size: 5em;
     font-family: sans-serif;
@@ -72,6 +72,7 @@ body{
     grid-row: 5;
     font-size: 5em;
     font-family: sans-serif;
+    cursor: pointer;
 }
 
 .item6 {
@@ -143,4 +144,50 @@ body{
 
 .xs{
   font-size: 2em;
+}
+
+.star1{
+  grid-column: 2 / 6;
+  grid-row: 1;
+}
+
+/* from https://css-tricks.com/the-shapes-of-css/ */
+#star-five {
+  margin: 50px 0;
+  position: relative;
+  display: block;
+  color: red;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid black;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+}
+#star-five:before {
+  border-bottom: 80px solid black;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+#star-five:after {
+  position: absolute;
+  display: block;
+  color: red;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid black;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
 }

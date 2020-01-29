@@ -12,6 +12,7 @@ var rhImgs = [
 ]
 var i = 1;
 var interval;
+var showObjectsOn = false;
 
 function rh(){
     console.log("rose hand animation");
@@ -31,13 +32,23 @@ function stopAnimation(){
     clearInterval(interval);
 }
 
+function toggleShowHide(){
+    console.log("showObjectsOn = " + showObjectsOn);
+    if(showObjectsOn == true){
+        showObjectsOn = false;
+    }
+    else if(showObjectsOn == false){
+        showObjectsOn = true;
+    }
+    console.log("showObjectsOn = " + showObjectsOn);
+}
+
 function showColor(item, color){
     console.log(item);
     var itemToShow = document.querySelector(item);
     itemToShow.style.backgroundColor = color;
     itemToShow.style.zIndex = 2;
 }
-
 
 function showTextColor(item, color){
     console.log(item);
@@ -46,14 +57,26 @@ function showTextColor(item, color){
     itemToShow.style.zIndex = 2;
 }
 
-function showBlack(item){
+function showStar(item){
+    console.log(item);
     var itemToShow = document.querySelector(item);
-    itemToShow.style.backgroundColor = "rgb(0,0,0)";
-    itemToShow.style.zIndex = 1;
+    itemToShow.style.
+    itemToShow.style.zIndex = 2;
+}
+
+function showBlack(item){
+    if(showObjectsOn == false){
+        var itemToShow = document.querySelector(item);
+        itemToShow.style.backgroundColor = "rgb(0,0,0)";
+        itemToShow.style.zIndex = 1;
+    }
+    
 }
 
 function showTextBlack(item){
-    var itemToShow = document.querySelector(item);
-    itemToShow.style.color = "rgb(0,0,0)";
-    itemToShow.style.zIndex = 1;
+    if(showObjectsOn == false){
+        var itemToShow = document.querySelector(item);
+        itemToShow.style.color = "rgb(0,0,0)";
+        itemToShow.style.zIndex = 1;
+    } 
 }
