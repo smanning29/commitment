@@ -1,5 +1,5 @@
 body{
-  /* background-color: black; */
+  background-color: black;
 }
 
 .grid-container {
@@ -149,6 +149,7 @@ body{
 .star1{
   grid-column: 2 / 6;
   grid-row: 1;
+  /* display: none; */
 }
 
 /* from https://css-tricks.com/the-shapes-of-css/ */
@@ -156,16 +157,15 @@ body{
   margin: 50px 0;
   position: relative;
   display: block;
-  color: red;
   width: 0px;
   height: 0px;
   border-right: 100px solid transparent;
-  border-bottom: 70px solid black;
+  border-bottom: 70px solid white;
   border-left: 100px solid transparent;
   transform: rotate(35deg);
 }
 #star-five:before {
-  border-bottom: 80px solid black;
+  border-bottom: 80px solid white;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
   position: absolute;
@@ -180,13 +180,12 @@ body{
 #star-five:after {
   position: absolute;
   display: block;
-  color: red;
   top: 3px;
   left: -105px;
   width: 0px;
   height: 0px;
   border-right: 100px solid transparent;
-  border-bottom: 70px solid black;
+  border-bottom: 70px solid white;
   border-left: 100px solid transparent;
   transform: rotate(-70deg);
   content: '';
