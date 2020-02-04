@@ -282,7 +282,7 @@ body{
 
 .text-grid-container-2 {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
   grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px;
   position: relative;
   z-index: 1;
@@ -299,8 +299,8 @@ body{
 .gentlemen1{
   font-family: 'Righteous', cursive;
   font-size: 10em;
-  grid-column: 1;
-  grid-row: 2;
+  grid-column: 1 / 5;
+  grid-row: 3;
   text-align: center;
   color: #2B04E8;
 }
