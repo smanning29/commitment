@@ -393,3 +393,21 @@ body{
   text-align: center;
   color:#053BA6;
 }
+
+.text-grid-container-4 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 80px 80px 80px;
+  position: relative;
+  z-index: 1;
+}
+
+.andmaythebest{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 5em;
+  letter-spacing: 10px;
+  grid-row: 3;
+  grid-column: 1;
+  text-align: center;
+  color:#FFFFFF;
+}
