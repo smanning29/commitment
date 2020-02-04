@@ -383,6 +383,10 @@ body{
   color:#FFFFFF;
 }
 
+.win-div{
+  position: relative;
+}
+
 .win{
   position: relative;
   width: 100%;
@@ -395,7 +399,7 @@ body{
 }
 
 .win-top{
-  position: relative;
+  position: absolute;
   width: 100%;
   height: auto;
   font-family: cursive;
@@ -403,4 +407,5 @@ body{
   text-align: center;
   color:#FFFFFF;
   z-index: 2;
+  top: 0;
 }
