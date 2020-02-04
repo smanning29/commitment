@@ -175,8 +175,8 @@ body{
 }
 
 .star7{
-  grid-column: 3;
-  grid-row: 8;
+  grid-column: 12;
+  grid-row: 5;
   display: none;
 }
 
