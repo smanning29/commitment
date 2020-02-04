@@ -409,15 +409,3 @@ body{
   z-index: 2;
   top: 0;
 }
-
-.win-top-2{
-  position: absolute;
-  width: 100%;
-  height: auto;
-  font-family: 'Meie Script', cursive;
-  font-size: 40em;
-  text-align: center;
-  color:palevioletred;
-  z-index: 3;
-  top: 20;
-}
