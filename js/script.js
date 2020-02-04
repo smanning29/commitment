@@ -50,7 +50,7 @@ function showStar(item){
 
 function showCat(item){
     var itemToShow = document.getElementById(item);
-    itemToShow.style.opacity = "0";
+    itemToShow.style.opacity = 0;
 }
 
 function hideStar(item){
