@@ -48,6 +48,11 @@ function showStar(item){
     itemToShow.style.display = "block";
 }
 
+function showCat(item){
+    var itemToShow = document.getElementById(item);
+    itemToShow.style.opacity = "0";
+}
+
 function hideStar(item){
     var itemToShow = document.querySelector(item);
     itemToShow.style.display = "none";
