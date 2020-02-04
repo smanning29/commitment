@@ -386,8 +386,8 @@ body{
 .win-container{
   width: 100%;
   height: auto;
-  font-family: ;
-  font-size: 40em;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 60em;
   text-align: center;
   color:#FFFFFF;
 }
