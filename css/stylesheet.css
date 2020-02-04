@@ -199,12 +199,12 @@ body{
 
 .star11{
   grid-column: 5;
-  grid-row: 10;
+  grid-row: 13;
   display: none;
 }
 
 .star12{
-  grid-column: 9;
+  grid-column: 10;
   grid-row: 10;
   display: none;
 }
@@ -246,4 +246,12 @@ body{
   border-left: 100px solid transparent;
   transform: rotate(-70deg);
   content: '';
+}
+
+.text-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+  position: relative;
+  z-index: 1;
 }
