@@ -300,7 +300,43 @@ body{
   font-family: 'Righteous', cursive;
   font-size: 10em;
   grid-column: 1;
-  grid-row: 5;
+  grid-row: 2;
+  text-align: center;
+  color: #2B04E8;
+}
+
+.gentlemen2{
+  font-family: 'Righteous', cursive;
+  font-size: 10em;
+  grid-column: 1;
+  grid-row: 3;
+  text-align: center;
+  color: #2B04E8;
+}
+
+.gentlemen3{
+  font-family: 'Righteous', cursive;
+  font-size: 10em;
+  grid-column: 1;
+  grid-row: 3;
+  text-align: center;
+  color: #2B04E8;
+}
+
+.gentlemen4{
+  font-family: 'Righteous', cursive;
+  font-size: 10em;
+  grid-column: 1;
+  grid-row: 3;
+  text-align: center;
+  color: #2B04E8;
+}
+
+.gentlemen5{
+  font-family: 'Righteous', cursive;
+  font-size: 10em;
+  grid-column: 1;
+  grid-row: 3;
   text-align: center;
   color: #2B04E8;
 }
