@@ -299,7 +299,7 @@ body{
 .gentlemen1{
   font-family: 'Righteous', cursive;
   font-size: 10em;
-  grid-column: 1 / 5;
+  grid-column: 3;
   grid-row: 3;
   text-align: center;
   color: #2B04E8;
@@ -308,16 +308,16 @@ body{
 .gentlemen2{
   font-family: 'Righteous', cursive;
   font-size: 10em;
-  grid-column: 1;
+  grid-column: 3;
   grid-row: 3;
   text-align: center;
-  color: #2B04E8;
+  color: #4A40FF;
 }
 
 .gentlemen3{
   font-family: 'Righteous', cursive;
   font-size: 10em;
-  grid-column: 1;
+  grid-column: 3;
   grid-row: 3;
   text-align: center;
   color: #2B04E8;
@@ -326,7 +326,7 @@ body{
 .gentlemen4{
   font-family: 'Righteous', cursive;
   font-size: 10em;
-  grid-column: 1;
+  grid-column: 3;
   grid-row: 3;
   text-align: center;
   color: #2B04E8;
@@ -335,7 +335,7 @@ body{
 .gentlemen5{
   font-family: 'Righteous', cursive;
   font-size: 10em;
-  grid-column: 1;
+  grid-column: 3;
   grid-row: 3;
   text-align: center;
   color: #2B04E8;
