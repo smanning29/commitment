@@ -292,16 +292,17 @@ body{
   font-family: 'Righteous', cursive;
   font-size: 5em;
   grid-row: 2;
-  left: 50%;
+  grid-column: 1;
   color:#FFFFFF;
 }
 
-.gentlemen{
+.gentlemen1{
   font-family: 'Righteous', cursive;
   font-size: 10em;
-  left: 50%;
+  grid-column: 1;
   grid-row: 5;
-  color: #FF9794;
+  text-align: center;
+  color: #2B04E8;
 }
 
 .speed{
