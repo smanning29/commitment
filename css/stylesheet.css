@@ -341,11 +341,18 @@ body{
   color: #8B09FF;
 }
 
+.text-grid-container-3 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 80px 80px 80px 80px;
+  position: relative;
+  z-index: 1;
+}
+
 .speed{
   font-family: 'Fugaz One', cursive;
   font-size: 5em;
-  grid-row: 9;
-  grid-column: 4;
-  left: 50%;
+  grid-row: 1;
+  grid-column: 1;
   color:#FF3320;
 }
