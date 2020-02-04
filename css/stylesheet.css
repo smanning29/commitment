@@ -283,23 +283,32 @@ body{
 .text-grid-container-2 {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
-  grid-template-rows: 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px;
   position: relative;
   z-index: 1;
 }
 
-.speed{
+.and{
   font-family: 'Righteous', cursive;
   font-size: 5em;
-  grid-column: 1;
-  grid-row: 4;
+  grid-row: 2;
+  left: 50%;
+  color:#FFFFFF;
+}
+
+.gentlemen{
+  font-family: 'Righteous', cursive;
+  font-size: 10em;
+  left: 50%;
+  grid-row: 5;
   color: #FF9794;
 }
 
-.gentelmen{
+.speed{
   font-family: 'Fugaz One', cursive;
-  font-size: 10em;
-  grid-column: 2;
-  grid-row: 5;
-  color: #FF9794;
+  font-size: 5em;
+  grid-row: 8;
+  grid-column: 6;
+  left: 50%;
+  color:#FF3320;
 }
