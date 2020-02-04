@@ -430,3 +430,21 @@ body{
 	padding:2%;
 	box-sizing:border-box;
 }
+
+.third-cat{
+  margin:2%;
+	width:29.33333333%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.quarter-cat{
+  margin:2%;
+	width:21%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+img {
+  max-width: 100%;
+}
