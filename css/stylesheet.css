@@ -344,8 +344,8 @@ body{
 .speed{
   font-family: 'Fugaz One', cursive;
   font-size: 5em;
-  grid-row: 8;
-  grid-column: 6;
+  grid-row: 9;
+  grid-column: 4;
   left: 50%;
   color:#FF3320;
 }
