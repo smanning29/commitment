@@ -255,3 +255,27 @@ body{
   position: relative;
   z-index: 1;
 }
+
+.ladies1{
+  font-family: 'Oleo Script', cursive;
+  font-size: 10em;
+  grid-column: 1;
+  grid-row: 3;
+  color: #B34844;
+}
+
+.ladies2{
+  font-family: 'Oleo Script', cursive;
+  font-size: 10em;
+  grid-column: 2;
+  grid-row: 2;
+  color: #FF7F7A;
+}
+
+.ladies3{
+  font-family: 'Oleo Script', cursive;
+  font-size: 10em;
+  grid-column: 3;
+  grid-row: 1;
+  color: #FF9794;
+}
