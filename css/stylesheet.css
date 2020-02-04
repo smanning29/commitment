@@ -391,14 +391,16 @@ body{
   font-size: 60em;
   text-align: center;
   color:#FFFFFF;
+  z-index: 1;
 }
 
 .win-top{
   position: relative;
   width: 100%;
   height: auto;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 60em;
+  font-family: cursive;
+  font-size: 40em;
   text-align: center;
   color:#FFFFFF;
+  z-index: 2;
 }
