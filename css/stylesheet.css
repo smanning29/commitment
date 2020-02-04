@@ -309,7 +309,7 @@ body{
   font-family: 'Righteous', cursive;
   font-size: 10em;
   grid-column: 3;
-  grid-row: 3;
+  grid-row: 4;
   text-align: center;
   color: #4A40FF;
 }
@@ -318,27 +318,27 @@ body{
   font-family: 'Righteous', cursive;
   font-size: 10em;
   grid-column: 3;
-  grid-row: 3;
+  grid-row: 5;
   text-align: center;
-  color: #2B04E8;
+  color: #5009FF;
 }
 
 .gentlemen4{
   font-family: 'Righteous', cursive;
   font-size: 10em;
   grid-column: 3;
-  grid-row: 3;
+  grid-row: 6;
   text-align: center;
-  color: #2B04E8;
+  color: #6A12E8;
 }
 
 .gentlemen5{
   font-family: 'Righteous', cursive;
   font-size: 10em;
   grid-column: 3;
-  grid-row: 3;
+  grid-row: 7;
   text-align: center;
-  color: #2B04E8;
+  color: #8B09FF;
 }
 
 .speed{
