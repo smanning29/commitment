@@ -411,5 +411,5 @@ body{
 }
 
 .bigfat{
-  
+  counter-reset: 1;
 }
