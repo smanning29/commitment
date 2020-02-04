@@ -248,10 +248,10 @@ body{
   content: '';
 }
 
-.text-grid-container {
+.text-grid-container-1 {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
-  grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px;
   position: relative;
   z-index: 1;
 }
@@ -280,9 +280,17 @@ body{
   color: #FF9794;
 }
 
-.and{
+.text-grid-container-2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: 80px 80px 80px;
+  position: relative;
+  z-index: 1;
+}
+
+.speed{
   font-family: 'Righteous', cursive;
-  font-size: 10em;
+  font-size: 5em;
   grid-column: 1;
   grid-row: 4;
   color: #FF9794;
