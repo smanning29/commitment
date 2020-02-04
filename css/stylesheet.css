@@ -279,3 +279,19 @@ body{
   grid-row: 1;
   color: #FF9794;
 }
+
+.and{
+  font-family: 'Righteous', cursive;
+  font-size: 10em;
+  grid-column: 1;
+  grid-row: 4;
+  color: #FF9794;
+}
+
+.gentelmen{
+  font-family: 'Fugaz One', cursive;
+  font-size: 10em;
+  grid-column: 2;
+  grid-row: 5;
+  color: #FF9794;
+}
